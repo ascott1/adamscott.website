@@ -1,0 +1,32 @@
+html,
+body {
+  color: #111111;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 100px; /* bottom = footer height */
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
+
+.wrap {
+  max-width: 700px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.site-footer {
+  margin-top: 120px;
+}
+
+.bump {
+  padding-top: 40px;
+}
